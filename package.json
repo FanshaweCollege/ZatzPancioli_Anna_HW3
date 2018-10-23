@@ -1,0 +1,30 @@
+{
+  "name": "zatzpancioli_anna_hw3",
+  "version": "1.0.0",
+  "description": "Interactive Information Poster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annapancioli/ZatzPancioli_Anna_HW3.git"
+  },
+  "keywords": [
+    "infographic",
+    "interactive",
+    "design"
+  ],
+  "author": "Anna Carolina Zatz Pancioli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annapancioli/ZatzPancioli_Anna_HW3/issues"
+  },
+  "homepage": "https://github.com/annapancioli/ZatzPancioli_Anna_HW3#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {
+    "gulp-install": "^1.1.0"
+  }
+}
