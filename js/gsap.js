@@ -94,11 +94,11 @@ function starAnimations(){
     })
     tl.from(feather, 2, {
         x:-700,
-        delay: 8
+        delay: 9
     })
     tl.from(hermioneline, 2, {
         x:-430,
-        delay: 12
+        delay: 2
     })
     tl.from(frogline, 2, {
         x:270,
