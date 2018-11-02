@@ -5,7 +5,4 @@ var wow = new WOW(
       offset: 0,
       mobile: true,
     }
-  ).init();
-
-
-
+).init();
