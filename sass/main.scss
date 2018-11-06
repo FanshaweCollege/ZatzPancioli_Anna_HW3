@@ -3,10 +3,16 @@
         width: 60%;
         height: 100%;
         margin: 0 auto;
-        background-color: #212121;
+        background-color: #fff;
     }
 }
 
- #number6_1_:hover, #number2_2_:hover, #number4_1_:hover, #number42_1_:hover, #number22_1_:hover, #harryGlass:hover, #frogFig{
+ /*#number6_1_:hover, #number2_2_:hover, #number4_1_:hover, #number42_1_:hover, #number22_1_:hover, #harryGlass:hover, #frogFig{
      cursor: pointer;
+ }*/
+
+ #box1{
+    position: relative;
+    z-index: -1;
+    float: left;
  }
