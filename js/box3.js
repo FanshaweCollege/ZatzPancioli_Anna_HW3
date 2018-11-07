@@ -2,7 +2,9 @@
 
     function startAnimations() {
     
-        //box1
+
+        //variables
+
         let svgObject = document.querySelector('#box3').contentDocument,
     
         number6 = svgObject.querySelector('#number6_1_'),
@@ -14,62 +16,60 @@
         lettera = svgObject.querySelector('#letterA_1_'),
         letterg = svgObject.querySelector('#letterG_1_'),
         letteri = svgObject.querySelector('#letterI_1_'),
-        letterc = svgObject.querySelector('#letterC_1_'),
-    
-        tl = new TimelineMax ({});
-    
+        letterc = svgObject.querySelector('#letterC_1_');
+
+        
+        //functions and animations
 
         function moveLetterm(){
-            TweenMax.fromTo(letterm, 1, {
-                x:-100, opacity: 0},
-                {x:0, opacity:100}
-            )
+            TweenMax.from(letterm, 1, {
+                rotation: 360, 
+                transformOrigin: "50% 50%"
+            })
         }
         
         function moveLettera(){
-            TweenMax.fromTo(lettera, 1, {
-                x:-150, opacity: 0},
-                {x:0, opacity:100}
-            )
+            TweenMax.from(lettera, 1, {
+                rotation: 360, 
+                transformOrigin: "50% 50%"
+            })
         }
         
         function moveLetterg(){
-            TweenMax.fromTo(letterg, 1, 
-                {x:-200, opacity: 0},
-                {x:0, opacity:100}
-            )
+            TweenMax.from(letterg, 1, {
+                rotation: 360, 
+                transformOrigin: "50% 50%"
+            })
         }
         
         function moveLetteri(){
-            TweenMax.fromTo(letteri, 1, 
-                {x:-250, opacity: 0},
-                {x:0, opacity:100}
-            )
+            TweenMax.from(letteri, 1, {
+                rotation: 360, 
+                transformOrigin: "50% 50%"
+            })
         }
         
         function moveLetterc(){
-            TweenMax.fromTo(letterc, 1, {
-                x:-300, opacity: 0},
-                {x:0, opacity:100}
-            )
+            TweenMax.from(letterc, 1, {
+                rotation: 360, 
+                transformOrigin: "50% 50%"
+            })
         }
+
+
+        //event listeners
 
         number6.addEventListener('click', moveLetterm, false);
         number2.addEventListener('click', moveLettera, false);
         number4.addEventListener('click', moveLetterg, false);
         number44.addEventListener('click', moveLetteri, false);
         number22.addEventListener('click', moveLetterc, false);
-    
-    
+
     
     }
     
     
+window.addEventListener("load", startAnimations, false);
     
     
-    //event listeners
-    
-    window.addEventListener("load", startAnimations, false);
-    
-    
-    })();
+})();

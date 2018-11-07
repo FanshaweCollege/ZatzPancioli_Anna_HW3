@@ -1,13 +1,19 @@
 (() => {
 
+
     function startAnimations() {
     
-        //box1
+
+        //variables
+
         let svgObject = document.querySelector('#box7').contentDocument,
-    
-        hat = svgObject.querySelector('#hat'),
+
         frogfig = svgObject.querySelector('#frogFig'),
-        frog = svgObject.querySelector('#frog');
+        frog = svgObject.querySelector('#frog'),
+        heart = svgObject.querySelector('#dumbleHeart');
+
+
+        //functions and animations
 
         function scaleFig(){
             TweenMax.to(frogfig, 1, {
@@ -22,29 +28,21 @@
             })
         }
 
-        function moveHat(){
-        TweenMax.from(hat, 2, {
-            y:350,
-            delay: 10
+        TweenMax.to(heart, 0.8, {
+            scale: 1.1, x:-5, repeat: -1
         })
-        }
 
+
+        //event listeners
 
         frogfig.addEventListener('click', scaleFig, false);
         frog.addEventListener('click', scaleFig, false);
-        hat.addEventListener('click', moveHat, false);
 
-
-    
     
     }
     
     
+window.addEventListener("load", startAnimations, false);
     
-    
-    //event listeners
-    
-    window.addEventListener("load", startAnimations, false);
-    
-    
-    })();
+
+})();

@@ -2,7 +2,9 @@
 
     function startAnimations() {
     
-        //box1
+
+        //variables
+
         let svgObject = document.querySelector('#box4').contentDocument,
     
         glass = svgObject.querySelector('#harryGlass'),
@@ -11,6 +13,8 @@
     
         tl = new TimelineMax ({});
     
+
+        //functions and animations
 
         function moveScar(){
             TweenMax.to(glass, 1, {
@@ -39,20 +43,17 @@
         }
 
 
+        //event listeners
+
         glass.addEventListener('click', moveScar, false);
         thunder.addEventListener('click', moveScar, false);
 
         broom.addEventListener('mouseover', moveBroom, false);
         broom.addEventListener('mouseout', stopBroom, false);
-
     
     
     }
-    
-    
-    
-    
-    //event listeners
+
     
     window.addEventListener("load", startAnimations, false);
     

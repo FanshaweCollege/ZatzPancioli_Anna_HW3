@@ -1,35 +1,28 @@
 (() => {
 
-    let svgBox2 = document.querySelector('#container2');
 
     function startAnimations() {
     
-        //box1
+
+        //variables
+        
         let svgObject = document.querySelector('#box2').contentDocument,
     
-        owlline = svgObject.querySelector('#owlLine'),
-        owlletter = svgObject.querySelector('#owlLetters'),
+        owlletter = svgObject.querySelector('#XMLID_248_');
 
-        tl = new TimelineMax ({});
 
-        tl.from(owlline, 1, {
-            x: 550
-        });
+        //functions and animations
 
         TweenMax.from(owlletter, 2, {
             x:300,
-            delay:1
+            delay:10
         })
 
 
     }
     
     
+window.addEventListener("load", startAnimations, false);
     
     
-    //event listeners
-    
-    svgBox2.addEventListener("load", startAnimations, false);
-    
-    
-    })();
+})();
