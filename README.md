@@ -1,15 +1,16 @@
-Homework 3: Interactive SVG Poster
-Interactive Infographic about the curiosities of the world of Harry Potter, created for the Multimedia Authoring 2 class.
+Homework 3: 
+Interactive SVG Poster Interactive Infographic about the curiosities of the world of Harry Potter, created for the Multimedia Authoring 2 class.
 
-Prerequisites:<br>
--Gulp<br>
+Prerequisites:
+-Gulp
 -Sass
 
-Built With:<br>
-Ilustrator CC - used for creating the design<br>
-Visual Studio Code - for writing html, css and javascript<br>
-Wow.js - javascript library used for scrolling animations<br>
+Built With:
+Ilustrator CC - used for creating the design
+Visual Studio Code - for writing html, css and javascript
+Wow.js - javascript library used for scrolling animations
 GSAP - javascript library used for other animations
 
-Author:<br>
+Author:
 Anna Carolina Zatz Pancioli
+
