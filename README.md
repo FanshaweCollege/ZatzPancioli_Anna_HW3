@@ -1,5 +1,4 @@
-Homework 3: <br>
-Interactive Information Poster <br>
+Homework 3: Interactive Information Poster <br>
 Interactive Infographic about the curiosities of the world of Harry Potter, created for the Multimedia Authoring 2 class.
 
 Prerequisites:<br>
