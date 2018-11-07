@@ -7,9 +7,10 @@ Prerequisites:<br>
 
 Built With:<br>
 Ilustrator CC - used for creating the design<br>
-Visual Studio Code - for writing html, css and javascript<br>
-Wow.js - javascript library used for scrolling animations<br>
-GSAP - javascript library used for other animations
+Visual Studio Code<br>
+Wow.js - javascript library<br>
+GSAP - javascript library<br>
+Animate.css - css library
 
 Author:<br>
 Anna Carolina Zatz Pancioli
